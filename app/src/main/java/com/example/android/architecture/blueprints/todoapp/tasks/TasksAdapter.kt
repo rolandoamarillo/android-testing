@@ -25,7 +25,7 @@ import com.example.android.architecture.blueprints.todoapp.databinding.TaskItemB
 import com.example.android.architecture.blueprints.todoapp.tasks.TasksAdapter.ViewHolder
 
 /**
- * Adapter for the task list. Has a reference to the [TasksViewModel] to send actions back to it.
+ * Adapter for the task list. Has a reference to the [  TasksViewModel] to send actions back to it.
  */
 class TasksAdapter(private val viewModel: TasksViewModel) :
     ListAdapter<Task, ViewHolder>(TaskDiffCallback()) {
